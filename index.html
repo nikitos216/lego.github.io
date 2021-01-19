@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!--Стартовые стили шаблона-->
+  <link rel="stylesheet" href="css/starter.css">
+  <!--Ваши стили-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!--НАЧАЛО Шапка-->
+  <header class="mainheader">
+    <div class="container">
+     
+      <img src="img/logo.png">
+      
+      <nav class="mainnav">
+      	<ul>
+      		<li class=""><a href="#" id="active1">Серии наборов</a></li>
+      		<li class=""><a href="#" id="active2">О компании</a></li>
+      		<li class=""><a href="#" id="active3">Оставить заявку</a></li>
+      		<li class=""><a href="#" id="active4">Собери комплект</a></li>
+      		<li id="shoppingCart"><img src="img/cart25.png"><a>  </a><a id='shoppingCartA'>0</a> </li>
+      	</ul>
+      </nav>
+	</div>
+	<div class="scrollProgressBar" id="SPB">
+		<div class="scrollProgress" id="scrollProgress"></div>
+	</div>
+</header>
+
+
+
+<!--КОНЕЦ Шапка-->
+
+<main>
+	
+
+	<div id="divScroll"></div>
+	<div class="container">
+     
+      <!--НАЧАЛО Секция "Серии наборов"-->
+      <section>
+        <h2>Серии наборов</h2>
+        
+        <!--Стреки для листания слайдера-->
+				<img src="img/arrow_right.png" class="slider_arrow_right" id="right">
+				<img src="img/arrow_left.png" class="slider_arrow_left" id='left'>
+       
+        <!--НАЧАЛО Обертка для слайдов-->
+		
+		<div class="viewport">
+			<div class="kit_slides_wrapper" id="slides_wrapper">
+			<!-- НАЧАЛО Слайд №1-->
+				<div class="kit_slide" id="pic1">
+					  <img src="img/series/series1.jpg">
+					  <div class="info">
+						<h3>THE LEGO MOVIE</h3>
+						<p>
+					  Познакомься с наборами из серии THE LEGO® MOVIE 2™, посмотри, как Эммет разворачивает свой новый дом мечты/спасательную ракету, когда Мими Катавасия прибывает на звездолёте.
+						</p>
+					  </div>
+				</div>
+			<!-- КОНЕЦ Слайд №1-->
+
+			<!-- НАЧАЛО Слайд №1-->
+				<div class="kit_slide" id="pic2">
+					  <img src="img/series/series2.jpg">
+					  <div class="info">
+						<h3>Star Wars</h3>
+						<p>
+							Встречайте большие фигурки LEGO® Star Wars™ из далекой-далекой галактики. Дети смогут воссоздать легендарные битвы между силами добра и зла с помощью световых мечей, бластеров и другого крутого оружия. Простые в сборке и прочные фигурки любимых персонажей Star Wars™ выдержат даже самые долгие сражения!
+						</p>
+					  </div>
+				</div>
+			<!-- КОНЕЦ Слайд №1-->
+
+			<!-- НАЧАЛО Слайд №1-->
+				<div class="kit_slide" id="pic3">
+					  <img src="img/series/series3.jpg">
+					  <div class="info">
+						<h3>NINJAGO</h3>
+						<p>
+							LEGO® NINJAGO® — удивительный мир, в котором ниндзя сражаются со злом. Ваш ребенок с удовольствием познакомится с этими героями и будет придумывать их новые удивительные приключения. Кроме того, дети смогут воссоздать эпизоды из популярного телесериала и вместе с друзьями соревноваться за звание мастера Кружитцу!
+						</p>
+					  </div>
+				</div>
+			<!-- КОНЕЦ Слайд №1-->
+
+			<!-- НАЧАЛО Слайд №1-->
+				<div class="kit_slide" id="pic4">
+					  <img src="img/series/series4.jpg">
+					  <div class="info">
+						<h3>City</h3>
+						<p>
+							Город LEGO® City — реалистичный мир LEGO, который вашему ребенку предстоит исследовать. На улицах этого оживленного города вы увидите легендарные транспортные средства и здания, среди которых обычные герои ловят плохих парней и тушат пожары. Этот веселый мир обладает особым очарованием и легко разбудит воображение ваших юных строителей.
+						</p>
+					  </div>
+				</div>
+			<!-- КОНЕЦ Слайд №1-->
+
+			<!-- НАЧАЛО Слайд №1-->
+				<div class="kit_slide" id="pic5">
+					  <img src="img/series/series5.jpg">
+					  <div class="info">
+						<h3>Technic</h3>
+						<p>
+							Наборы LEGO® Technic™ предназначены для опытных конструкторов LEGO. Из конструкторов серии LEGO Technic™ ваш ребенок сможет собрать сложные реалистичные механизмы, такие как коробка передач, двигатель с подвижными поршнями, система рулевого управления и рабочая стрела подъемного крана. Эти великолепные наборы выведут их творческие способности на новый уровень.
+						</p>
+					  </div>
+				</div>
+			<!-- КОНЕЦ Слайд №1-->
+			
+        </div>
+	</div>
+        <!--КОНЕЦ Обертка для слайдов-->
+      </section>
+      <!--КОНЕЦ Секция "Серии наборов"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "О компании"-->
+      <section>
+      	<h2>О компании</h2>
+      	
+      	<p>
+      		<strong>LEGO Group</strong> — датская частная компания, занимающаяся производством одноимённых серий развивающих игрушек, представляющих собой наборы деталей для сборки и моделирования разнообразных предметов — конструкторов. Второй по величине (после Hasbro) производитель игрушек в мире.
+      	</p>
+      	<p>
+      		Головной офис компании находится в Дании. Здесь же, в Дании, на полуострове Ютландия, в небольшом городке Биллунд, находится и самый большой Леголенд в мире — город, полностью построенный из конструктора LEGO.
+      	</p>
+      	<p>
+      		Основой наборов является кирпичик LEGO — деталь, представляющая собой полый пластмассовый блок, соединяющийся с другими такими же кирпичиками на шипах. В наборы также могут входить множество других деталей: фигурки людей и животных, колёса и так далее. Существуют наборы, в которые входят электродвигатели, различного рода датчики и даже микроконтроллеры. Наборы позволяют собирать модели автомобилей, самолётов, кораблей, зданий, роботов. Воплощает идею модульности, наглядно демонстрирующий детям то, как можно решать некоторые технические проблемы, также прививает навыки сборки, ремонта и разборки техники.
+      	</p>
+      </section>
+      <!--КОНЕЦ Секция "О компании"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "Оставить заявку"-->
+      <section>
+      	<h2>Оставить заявку</h2>
+      	
+      	<!--НАЧАЛО Обертка/флекс-контейнер-->
+      	<div class="order-wrapper">
+      	  <!--НАЧАЛО Левая часть с полями для ввода-->
+      		<div class="order-form">
+      			<!--Имя-->
+      			<label for="firstname_field">Имя</label>
+      			<input type="text" id="firstname_field"> 
+      			<!--Фамилия-->
+      			<label for="lastname_field">Фамилия</label>
+      			<input type="text" id="lastname_field">
+      			<!--Номер телефона-->     	
+      			<label for="phone_field">Телефон</label>
+      			<input type="text" id="phone_field">
+      			<button id="enter">Отправить</button>
+      		</div>
+      	  <!--КОНЕЦ Левая часть с полями для ввода-->
+      	  
+      	  <!--НАЧАЛО Правая часть с сообщением-->
+      		<div class="order-alert visible">
+      			<p>
+      				<strong id="nameInner">Уважаемый, Иванов Н.</strong><br>
+      				Наши специалисты уже получили Вашу заявку и свяжутся с Вами в ближайшее время по телефону <strong><nobr id="phoneInner">8 999 123 45 67</nobr></strong><br>
+      				Спасибо за обращение! 
+      			</p>
+      		</div>      	  
+      		<!--КОНЕЦ Правая часть с сообщением-->
+      	</div>
+      	<!--КОНЕЦ Обертка/флекс-контейнер-->
+      </section>
+      <!--КОНЕЦ Секция "Оставить заявку"-->
+      
+      
+      
+      <!--НАЧАЛО Секция "Собери комплект"-->
+      <section>
+      	<h2>Собери комплект</h2>
+      	
+      	<!--НАЧАЛО Обертка/флекс-контейнер для товаров-->
+      	<div class="goods-wrapper">
+      	
+      		<!--НАЧАЛО Товар №1-->
+      		<div class="product">
+      			<img src="img/goods/1.png">
+      			<h4>Пожарная машина</h4>
+      			<button onclick="funfunfun(shoppingCart123)"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №1-->
+      		<!--НАЧАЛО Товар №2-->
+      		<div class="product">
+      			<img src="img/goods/2.jpg">
+      			<h4>Гоночная машина</h4>
+      			<button onclick="funfunfun(shoppingCart123)"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №2-->
+      		<!--НАЧАЛО Товар №3-->
+      		<div class="product">
+      			<img src="img/goods/3.jpg">
+      			<h4>Попугай</h4>
+      			<button onclick="funfunfun(shoppingCart123)"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №3-->
+      		
+      		<!--НАЧАЛО Товар №4-->
+      		<div class="product">
+      			<img src="img/goods/4.jpg">
+      			<h4>Аэропорт</h4>
+      			<button onclick="funfunfun(shoppingCart123)"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №4-->
+      		<!--НАЧАЛО Товар №5-->
+      		<div class="product">
+      			<img src="img/goods/5.jpg">
+      			<h4>Вертолет</h4>
+      			<button onclick="funfunfun(shoppingCart123)"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №5-->
+      		<!--НАЧАЛО Товар №6-->
+      		<div class="product">
+      			<img src="img/goods/6.jpg">
+      			<h4>Дом (красный)</h4>
+      			<button onclick="funfunfun(shoppingCart123)"><img src="img/cart16.png"></button>
+      		</div>
+      		<!--КОНЕЦ Товар №6-->
+      	</div>
+      	<!--КОНЕЦ Обертка/флекс-контейнер для товаров-->
+	</section>
+	<!--КОНЕЦ Секция "Собери комплект"-->
+	
+</div>
+</main>
+
+<footer id="foooter">Up</footer>
+
+<script>
+	'use strict';
+
+	document.body.style.backgroundColor = prompt('какой цвет фона хочешь?', 'white');
+	
+	let shoppingCart123 = 0;
+
+	let position = 0;
+        let rightBtn = document.querySelector("#right");
+        let leftBtn = document.querySelector("#left");
+        let slides_wrapper = document.querySelector("#slides_wrapper");
+
+        rightBtn.addEventListener("click", function(){
+            position++;
+            if (position > 4) position = 4;
+			slides_wrapper.style.transform = `translate(0 , ${-position*330}px)`;
+			
+			
+        });
+
+        leftBtn.addEventListener("click", function(){
+            position--;
+            if (position < 0) position = 0;
+            slides_wrapper.style.transform = `translate(0 , ${-position*330}px)`;
+        });
+
+	function scrollProgressF(){
+		let w=window.pageYOffset/(document.body.clientHeight-window.innerHeight)*100;
+		scrollProgress.style.width=w+"%";
+	};
+	
+	function funfunfun(x){
+		x+=1;
+		document.getElementById("shoppingCartA").innerHTML = x;
+		shoppingCart123 = x
+	};
+	
+	
+
+    document.addEventListener("scroll",function(){
+		if(window.pageYOffset>=(document.body.scrollHeight/2)){
+			foooter.classList.add('vis');
+		}else{
+			foooter.classList.remove('vis');
+	};
+
+	foooter.addEventListener('click', function() {
+        divScroll.scrollIntoView({ behavior: 'smooth', block: 'center' })
+	});
+
+
+	scrollProgressF();
+	});
+	
+	enter.addEventListener('click', function() {
+		let firstname = firstname_field.value;
+		let lastname = lastname_field.value;
+		let phone = phone_field.value;
+		console.log('Уважаемый,', lastname, firstname[0]+'.');
+		nameInner.innerHTML = ('Уважаемый,'+ ' ' + lastname + ' ' + firstname[0] + '.');
+		phoneInner.innerHTML = (phone);
+	});
+  </script>
+</body>
+</html>

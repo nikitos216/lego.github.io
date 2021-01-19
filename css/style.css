@@ -1,0 +1,55 @@
+/* Здесь пишем свои стили */
+.scrollProgressBar{
+    height:5px;
+    width:100%;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    margin-top: 83px;
+    border: red solid;
+}
+.scrollProgress{
+    height:5px;
+    width:0%;
+    background-image: url('scroll_progress.gif');
+    position: fixed;
+    top:0;
+    left:0;
+    margin-top: 83px;
+}
+
+footer {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #3dd;
+    font-size: 30px;
+    bottom: 100px;
+    right: 100px;
+    border-radius:100%;
+    opacity: 0;
+    transition: opacity 1s;   
+}
+
+.vis {
+    opacity: 1;
+}
+
+.viewport{
+    width: 860px;
+    height: 330px;
+    overflow: hidden;
+    justify-content: space-around;
+}
+
+.lego{
+    background-image: url(lego.png);
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
